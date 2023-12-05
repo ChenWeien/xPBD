@@ -18,6 +18,8 @@ void TimeIntegration::semiImplicitEuler(
 	}
 }
 
+#include <iostream>
+
 // ----------------------------------------------------------------------------------------------
 void TimeIntegration::semiImplicitEulerRotation(
 	const Real h,
@@ -30,9 +32,26 @@ void TimeIntegration::semiImplicitEulerRotation(
 {
 	if (mass != 0.0)
 	{
-		angularVelocity += h * invInertiaW * (torque - (angularVelocity.cross(invertiaW * angularVelocity)));
+		auto angCross = angularVelocity.cross( invertiaW * angularVelocity );
+		angularVelocity += h * invInertiaW * (torque - ( angCross ));
 
 		Quaternionr angVelQ(0.0, angularVelocity[0], angularVelocity[1], angularVelocity[2]);
+		if ( ( angVelQ.x() != 0 || angVelQ.y() != 0 || angVelQ.z() != 0 || angVelQ.w() != 0 )
+			&& ( rotation.x() != 0 || rotation.y() != 0 || rotation.z() != 0 || rotation.w() != 0 ) )
+				
+		{
+			static bool bprint = false;
+			if ( bprint )
+			{
+				std::cout << "angVelQ: " << angVelQ.coeffs().transpose() << std::endl;
+				std::cout << "rotation: " << rotation.coeffs().transpose() << std::endl;
+
+				auto tmp = angVelQ * rotation;
+				auto tmp2 = rotation * angVelQ;
+				std::cout << "tmp: " << tmp.coeffs().transpose() << std::endl;
+				std::cout << "tmp2: " << tmp2.coeffs().transpose() << std::endl;
+			}
+		}
 		rotation.coeffs() += h * 0.5 * (angVelQ * rotation).coeffs();
 		rotation.normalize();
 	}
