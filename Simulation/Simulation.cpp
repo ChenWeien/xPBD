@@ -13,7 +13,7 @@ int Simulation::GRAVITATION = -1;
 
 Simulation::Simulation () 
 {
-	m_gravitation = Vector3r(0.0, -9.81, 0.0);
+	m_gravitation = Vector3r(0.0, 0, -10.0);
 
 	m_timeStep = nullptr;
 	m_model = nullptr;

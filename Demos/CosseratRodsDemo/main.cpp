@@ -182,11 +182,43 @@ void render ()
 */
 void createHelix(const Vector3r &position, const Matrix3r &orientation, Real radius, Real height, Real totalAngle, int nPoints)
 {
+	#define test_hair 1
+#ifdef test_hair
+	nPoints = 20;
+#endif
 	int nQuaternions = nPoints - 1;
+
+
+
+#if !defined(test_hair)
 	vector<Vector3r> points(nPoints);
+#else
+	vector<Vector3r> points{
+{0.14918572,    -0.81304216  , 16.375113    },
+{ 0.29318213,   -0.7768429   , 16.414461   },
+{ 0.42995214,   -0.729215    , 16.36451   },
+{ 0.54757345,   -0.6745873   , 16.281363   },
+{ 0.6424591,    -0.60547733  , 16.1847    }   ,
+{ 0.72190696,   -0.5328279   , 16.082777   },
+{ 0.7819463,    -0.50927633  , 15.953053   },
+{ 0.8145762,    -0.5164628   , 15.807585   },
+{ 0.83403444,   -0.5325354   , 15.659893   },
+{ 0.8413746,    -0.5553691   , 15.512508   },
+{ 0.83368784,   -0.52961874  , 15.366425   },
+{ 0.8290043,    -0.47469613  , 15.228168   },
+{ 0.83257365,   -0.4099596   , 15.094017   },
+{ 0.84154314,   -0.34796804  , 14.958923   },
+{ 0.8585787,    -0.29316226  , 14.821625   },
+{ 0.8891413,    -0.24093649  , 14.685571   },
+{ 0.93828297,   -0.1834172   , 14.556879   },
+{ 1.003902,     -0.11680384  , 14.44004   },
+{ 1.097491,     -0.031129388 , 14.358309   },
+{ 1.2133498,    0.06679333   , 14.332094   } };
+#endif
 	vector<Quaternionr> quaternions(nQuaternions);
 	
 	//init particles
+#if !defined(test_hair)
 	for (int i = 0; i<nPoints; i++)   
 	{
 		points[i].x() = radius * std::cos(totalAngle / ((Real)nPoints) * (Real)i);
@@ -195,7 +227,7 @@ void createHelix(const Vector3r &position, const Matrix3r &orientation, Real rad
 
 		points[i] = orientation * points[i] + position;
 	}
-
+#endif
 	//init quaternions
 	Vector3r from(0, 0, 1);
 	for(int i=0; i<nQuaternions; i++)	
@@ -243,6 +275,7 @@ void createHelix(const Vector3r &position, const Matrix3r &orientation, Real rad
 	
 	// Set mass of quaternions to zero => make it static
 	od.setMass(nQuaternionsTotal - nQuaternions, 0.0);
+	od.setMass(1, 0.0);
 
 	// init constraints
 	const size_t rodNumber = model->getLineModels().size() - 1;
