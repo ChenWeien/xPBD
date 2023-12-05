@@ -24,7 +24,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E10343FF-4577-328A-9908-AADAF9A94FC1}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>Ext_GenericParameters</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -105,12 +105,12 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\dev\study\xPBD\build\CMakeFiles\cab637e7321ad2b0aafd4f57de90177f\Ext_GenericParameters-mkdir.rule">
+    <CustomBuild Include="E:\dev\study\xPBD\build\CMakeFiles\4d145d3eb77ddc8dde68836c2d63fb2f\Ext_GenericParameters-mkdir.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P E:/dev/study/xPBD/build/GenericParameters/tmp/Ext_GenericParameters-mkdirs.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P E:/dev/study/xPBD/build/GenericParameters/tmp/Ext_GenericParameters-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/Debug/Ext_GenericParameters-mkdir
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -119,13 +119,13 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Debug\Ext_GenericParameters-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Creating directories for 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Release -P E:/dev/study/xPBD/build/GenericParameters/tmp/Ext_GenericParameters-mkdirs.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P E:/dev/study/xPBD/build/GenericParameters/tmp/Ext_GenericParameters-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/Release/Ext_GenericParameters-mkdir
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -134,13 +134,13 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Release\Ext_GenericParameters-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Creating directories for 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/MinSizeRel -P E:/dev/study/xPBD/build/GenericParameters/tmp/Ext_GenericParameters-mkdirs.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P E:/dev/study/xPBD/build/GenericParameters/tmp/Ext_GenericParameters-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/MinSizeRel/Ext_GenericParameters-mkdir
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -149,13 +149,13 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\MinSizeRel\Ext_GenericParameters-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Creating directories for 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/RelWithDebInfo -P E:/dev/study/xPBD/build/GenericParameters/tmp/Ext_GenericParameters-mkdirs.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P E:/dev/study/xPBD/build/GenericParameters/tmp/Ext_GenericParameters-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/RelWithDebInfo/Ext_GenericParameters-mkdir
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -164,12 +164,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\RelWithDebInfo\Ext_GenericParameters-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\dev\study\xPBD\build\CMakeFiles\cab637e7321ad2b0aafd4f57de90177f\Ext_GenericParameters-download.rule">
+    <CustomBuild Include="E:\dev\study\xPBD\build\CMakeFiles\4d145d3eb77ddc8dde68836c2d63fb2f\Ext_GenericParameters-download.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 cd E:\dev\study\xPBD\build\GenericParameters\src
@@ -178,7 +178,7 @@ E:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -P E:/dev/study/xPBD/build/GenericParameters/tmp/Ext_GenericParameters-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/Debug/Ext_GenericParameters-download
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -186,8 +186,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Ext_GenericParameters-gitinfo.txt;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Debug\Ext_GenericParameters-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Debug\Ext_GenericParameters-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Ext_GenericParameters-gitinfo.txt;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing download step (git clone) for 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
@@ -197,7 +197,7 @@ E:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -P E:/dev/study/xPBD/build/GenericParameters/tmp/Ext_GenericParameters-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/Release/Ext_GenericParameters-download
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -205,8 +205,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Ext_GenericParameters-gitinfo.txt;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Release\Ext_GenericParameters-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Release\Ext_GenericParameters-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Ext_GenericParameters-gitinfo.txt;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing download step (git clone) for 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
@@ -216,7 +216,7 @@ E:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -P E:/dev/study/xPBD/build/GenericParameters/tmp/Ext_GenericParameters-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/MinSizeRel/Ext_GenericParameters-download
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -224,8 +224,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Ext_GenericParameters-gitinfo.txt;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\MinSizeRel\Ext_GenericParameters-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\MinSizeRel\Ext_GenericParameters-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Ext_GenericParameters-gitinfo.txt;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing download step (git clone) for 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
@@ -235,7 +235,7 @@ E:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -P E:/dev/study/xPBD/build/GenericParameters/tmp/Ext_GenericParameters-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/RelWithDebInfo/Ext_GenericParameters-download
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -243,20 +243,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Ext_GenericParameters-gitinfo.txt;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\RelWithDebInfo\Ext_GenericParameters-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\RelWithDebInfo\Ext_GenericParameters-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Ext_GenericParameters-gitinfo.txt;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\dev\study\xPBD\build\CMakeFiles\cab637e7321ad2b0aafd4f57de90177f\Ext_GenericParameters-update.rule">
+    <CustomBuild Include="E:\dev\study\xPBD\build\CMakeFiles\4d145d3eb77ddc8dde68836c2d63fb2f\Ext_GenericParameters-update.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 cd E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters
 if %errorlevel% neq 0 goto :cmEnd
 E:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -P E:/dev/study/xPBD/build/GenericParameters/tmp/Ext_GenericParameters-gitupdate.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P E:/dev/study/xPBD/build/GenericParameters/tmp/Ext_GenericParameters-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -264,8 +264,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\tmp\Ext_GenericParameters-gitupdate.cmake;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Ext_GenericParameters-update-info.txt;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Debug\Ext_GenericParameters-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Debug\Ext_GenericParameters-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing update step for 'Ext_GenericParameters'</Message>
@@ -274,7 +274,7 @@ cd E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters
 if %errorlevel% neq 0 goto :cmEnd
 E:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -P E:/dev/study/xPBD/build/GenericParameters/tmp/Ext_GenericParameters-gitupdate.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P E:/dev/study/xPBD/build/GenericParameters/tmp/Ext_GenericParameters-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -282,8 +282,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\tmp\Ext_GenericParameters-gitupdate.cmake;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Ext_GenericParameters-update-info.txt;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Release\Ext_GenericParameters-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Release\Ext_GenericParameters-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing update step for 'Ext_GenericParameters'</Message>
@@ -292,7 +292,7 @@ cd E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters
 if %errorlevel% neq 0 goto :cmEnd
 E:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -P E:/dev/study/xPBD/build/GenericParameters/tmp/Ext_GenericParameters-gitupdate.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P E:/dev/study/xPBD/build/GenericParameters/tmp/Ext_GenericParameters-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -300,8 +300,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\tmp\Ext_GenericParameters-gitupdate.cmake;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Ext_GenericParameters-update-info.txt;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\MinSizeRel\Ext_GenericParameters-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\MinSizeRel\Ext_GenericParameters-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing update step for 'Ext_GenericParameters'</Message>
@@ -310,7 +310,7 @@ cd E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters
 if %errorlevel% neq 0 goto :cmEnd
 E:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -P E:/dev/study/xPBD/build/GenericParameters/tmp/Ext_GenericParameters-gitupdate.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -P E:/dev/study/xPBD/build/GenericParameters/tmp/Ext_GenericParameters-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -318,19 +318,19 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\tmp\Ext_GenericParameters-gitupdate.cmake;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Ext_GenericParameters-update-info.txt;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\RelWithDebInfo\Ext_GenericParameters-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\RelWithDebInfo\Ext_GenericParameters-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\dev\study\xPBD\build\CMakeFiles\cab637e7321ad2b0aafd4f57de90177f\Ext_GenericParameters-patch.rule">
+    <CustomBuild Include="E:\dev\study\xPBD\build\CMakeFiles\4d145d3eb77ddc8dde68836c2d63fb2f\Ext_GenericParameters-patch.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/Debug/Ext_GenericParameters-patch
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -338,15 +338,15 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Ext_GenericParameters-patch-info.txt;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Debug\Ext_GenericParameters-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Debug\Ext_GenericParameters-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No patch step for 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/Release/Ext_GenericParameters-patch
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -354,15 +354,15 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Ext_GenericParameters-patch-info.txt;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Release\Ext_GenericParameters-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Release\Ext_GenericParameters-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No patch step for 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/MinSizeRel/Ext_GenericParameters-patch
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -370,15 +370,15 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Ext_GenericParameters-patch-info.txt;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\MinSizeRel\Ext_GenericParameters-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\MinSizeRel\Ext_GenericParameters-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No patch step for 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/RelWithDebInfo/Ext_GenericParameters-patch
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -386,23 +386,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Ext_GenericParameters-patch-info.txt;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\RelWithDebInfo\Ext_GenericParameters-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\RelWithDebInfo\Ext_GenericParameters-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\dev\study\xPBD\build\CMakeFiles\cab637e7321ad2b0aafd4f57de90177f\Ext_GenericParameters-configure.rule">
+    <CustomBuild Include="E:\dev\study\xPBD\build\CMakeFiles\4d145d3eb77ddc8dde68836c2d63fb2f\Ext_GenericParameters-configure.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing configure step for 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 cd E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-build
 if %errorlevel% neq 0 goto :cmEnd
 E:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_BUILD_TYPE= -DCMAKE_INSTALL_PREFIX:PATH=E:/dev/study/xPBD/build/GenericParameters -DGENERICPARAMETERS_NO_TESTS:BOOL=1 "-GVisual Studio 17 2022" -Ax64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files/Microsoft Visual Studio/2022/Professional" -S E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters -B E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-build
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_BUILD_TYPE= -DCMAKE_INSTALL_PREFIX:PATH=E:/dev/study/xPBD/build/GenericParameters -DGENERICPARAMETERS_NO_TESTS:BOOL=1 "-GVisual Studio 17 2022" "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files/Microsoft Visual Studio/2022/Professional" E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/Debug/Ext_GenericParameters-configure
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -410,8 +410,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\tmp\Ext_GenericParameters-cfgcmd.txt;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Debug\Ext_GenericParameters-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Debug\Ext_GenericParameters-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\tmp\Ext_GenericParameters-cfgcmd.txt;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing configure step for 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
@@ -419,9 +419,9 @@ cd E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-build
 if %errorlevel% neq 0 goto :cmEnd
 E:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_BUILD_TYPE= -DCMAKE_INSTALL_PREFIX:PATH=E:/dev/study/xPBD/build/GenericParameters -DGENERICPARAMETERS_NO_TESTS:BOOL=1 "-GVisual Studio 17 2022" -Ax64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files/Microsoft Visual Studio/2022/Professional" -S E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters -B E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-build
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_BUILD_TYPE= -DCMAKE_INSTALL_PREFIX:PATH=E:/dev/study/xPBD/build/GenericParameters -DGENERICPARAMETERS_NO_TESTS:BOOL=1 "-GVisual Studio 17 2022" "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files/Microsoft Visual Studio/2022/Professional" E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/Release/Ext_GenericParameters-configure
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -429,8 +429,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\tmp\Ext_GenericParameters-cfgcmd.txt;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Release\Ext_GenericParameters-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Release\Ext_GenericParameters-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\tmp\Ext_GenericParameters-cfgcmd.txt;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing configure step for 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
@@ -438,9 +438,9 @@ cd E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-build
 if %errorlevel% neq 0 goto :cmEnd
 E:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_BUILD_TYPE= -DCMAKE_INSTALL_PREFIX:PATH=E:/dev/study/xPBD/build/GenericParameters -DGENERICPARAMETERS_NO_TESTS:BOOL=1 "-GVisual Studio 17 2022" -Ax64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files/Microsoft Visual Studio/2022/Professional" -S E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters -B E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-build
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_BUILD_TYPE= -DCMAKE_INSTALL_PREFIX:PATH=E:/dev/study/xPBD/build/GenericParameters -DGENERICPARAMETERS_NO_TESTS:BOOL=1 "-GVisual Studio 17 2022" "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files/Microsoft Visual Studio/2022/Professional" E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/MinSizeRel/Ext_GenericParameters-configure
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -448,8 +448,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\tmp\Ext_GenericParameters-cfgcmd.txt;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\MinSizeRel\Ext_GenericParameters-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\MinSizeRel\Ext_GenericParameters-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\tmp\Ext_GenericParameters-cfgcmd.txt;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing configure step for 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
@@ -457,9 +457,9 @@ cd E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-build
 if %errorlevel% neq 0 goto :cmEnd
 E:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_BUILD_TYPE= -DCMAKE_INSTALL_PREFIX:PATH=E:/dev/study/xPBD/build/GenericParameters -DGENERICPARAMETERS_NO_TESTS:BOOL=1 "-GVisual Studio 17 2022" -Ax64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files/Microsoft Visual Studio/2022/Professional" -S E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters -B E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-build
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_BUILD_TYPE= -DCMAKE_INSTALL_PREFIX:PATH=E:/dev/study/xPBD/build/GenericParameters -DGENERICPARAMETERS_NO_TESTS:BOOL=1 "-GVisual Studio 17 2022" "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files/Microsoft Visual Studio/2022/Professional" E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/RelWithDebInfo/Ext_GenericParameters-configure
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -467,13 +467,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\tmp\Ext_GenericParameters-cfgcmd.txt;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\RelWithDebInfo\Ext_GenericParameters-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\RelWithDebInfo\Ext_GenericParameters-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\tmp\Ext_GenericParameters-cfgcmd.txt;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\dev\study\xPBD\build\CMakeFiles\cab637e7321ad2b0aafd4f57de90177f\Ext_GenericParameters-build.rule">
+    <CustomBuild Include="E:\dev\study\xPBD\build\CMakeFiles\4d145d3eb77ddc8dde68836c2d63fb2f\Ext_GenericParameters-build.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing build step for 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 cd E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-build
@@ -482,7 +482,7 @@ E:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/Debug/Ext_GenericParameters-build
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -490,8 +490,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Debug\Ext_GenericParameters-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Debug\Ext_GenericParameters-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing build step for 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
@@ -501,7 +501,7 @@ E:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Release
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/Release/Ext_GenericParameters-build
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -509,8 +509,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Release\Ext_GenericParameters-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Release\Ext_GenericParameters-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing build step for 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
@@ -520,7 +520,7 @@ E:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config MinSizeRel
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/MinSizeRel/Ext_GenericParameters-build
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -528,8 +528,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\MinSizeRel\Ext_GenericParameters-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\MinSizeRel\Ext_GenericParameters-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing build step for 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
@@ -539,7 +539,7 @@ E:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config RelWithDebInfo
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/RelWithDebInfo/Ext_GenericParameters-build
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -547,13 +547,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\RelWithDebInfo\Ext_GenericParameters-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\RelWithDebInfo\Ext_GenericParameters-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\dev\study\xPBD\build\CMakeFiles\cab637e7321ad2b0aafd4f57de90177f\Ext_GenericParameters-install.rule">
+    <CustomBuild Include="E:\dev\study\xPBD\build\CMakeFiles\4d145d3eb77ddc8dde68836c2d63fb2f\Ext_GenericParameters-install.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing install step for 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 cd E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-build
@@ -562,7 +562,7 @@ E:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug --target install
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/Debug/Ext_GenericParameters-install
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -570,8 +570,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Debug\Ext_GenericParameters-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Debug\Ext_GenericParameters-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing install step for 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
@@ -581,7 +581,7 @@ E:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Release --target install
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/Release/Ext_GenericParameters-install
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -589,8 +589,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Release\Ext_GenericParameters-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Release\Ext_GenericParameters-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing install step for 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
@@ -600,7 +600,7 @@ E:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config MinSizeRel --target install
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/MinSizeRel/Ext_GenericParameters-install
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -608,8 +608,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\MinSizeRel\Ext_GenericParameters-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\MinSizeRel\Ext_GenericParameters-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing install step for 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
@@ -619,7 +619,7 @@ E:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config RelWithDebInfo --target install
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/RelWithDebInfo/Ext_GenericParameters-install
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -627,20 +627,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\RelWithDebInfo\Ext_GenericParameters-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\RelWithDebInfo\Ext_GenericParameters-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\dev\study\xPBD\build\CMakeFiles\39a547add2157d1af9725fcc36836e85\Ext_GenericParameters-complete.rule">
+    <CustomBuild Include="E:\dev\study\xPBD\build\CMakeFiles\676a27c0b2e6606159d172ae3b02373f\Ext_GenericParameters-complete.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/dev/study/xPBD/build/CMakeFiles/Debug
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/dev/study/xPBD/build/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/CMakeFiles/Debug/Ext_GenericParameters-complete
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/CMakeFiles/$(Configuration)/Ext_GenericParameters-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/Debug/Ext_GenericParameters-done
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -648,17 +648,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Debug\Ext_GenericParameters-install;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Debug\Ext_GenericParameters-mkdir;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Debug\Ext_GenericParameters-download;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Debug\Ext_GenericParameters-update;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Debug\Ext_GenericParameters-patch;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Debug\Ext_GenericParameters-configure;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Debug\Ext_GenericParameters-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\CMakeFiles\Debug\Ext_GenericParameters-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-install;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-mkdir;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-download;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-update;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-patch;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-configure;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\CMakeFiles\$(Configuration)\Ext_GenericParameters-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Completed 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/dev/study/xPBD/build/CMakeFiles/Release
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/dev/study/xPBD/build/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/CMakeFiles/Release/Ext_GenericParameters-complete
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/CMakeFiles/$(Configuration)/Ext_GenericParameters-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/Release/Ext_GenericParameters-done
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -666,17 +666,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Release\Ext_GenericParameters-install;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Release\Ext_GenericParameters-mkdir;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Release\Ext_GenericParameters-download;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Release\Ext_GenericParameters-update;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Release\Ext_GenericParameters-patch;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Release\Ext_GenericParameters-configure;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\Release\Ext_GenericParameters-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\CMakeFiles\Release\Ext_GenericParameters-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-install;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-mkdir;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-download;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-update;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-patch;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-configure;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\CMakeFiles\$(Configuration)\Ext_GenericParameters-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Completed 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/dev/study/xPBD/build/CMakeFiles/MinSizeRel
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/dev/study/xPBD/build/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/CMakeFiles/MinSizeRel/Ext_GenericParameters-complete
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/CMakeFiles/$(Configuration)/Ext_GenericParameters-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/MinSizeRel/Ext_GenericParameters-done
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -684,17 +684,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\MinSizeRel\Ext_GenericParameters-install;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\MinSizeRel\Ext_GenericParameters-mkdir;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\MinSizeRel\Ext_GenericParameters-download;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\MinSizeRel\Ext_GenericParameters-update;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\MinSizeRel\Ext_GenericParameters-patch;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\MinSizeRel\Ext_GenericParameters-configure;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\MinSizeRel\Ext_GenericParameters-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\CMakeFiles\MinSizeRel\Ext_GenericParameters-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-install;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-mkdir;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-download;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-update;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-patch;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-configure;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\CMakeFiles\$(Configuration)\Ext_GenericParameters-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Completed 'Ext_GenericParameters'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/dev/study/xPBD/build/CMakeFiles/RelWithDebInfo
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/dev/study/xPBD/build/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/CMakeFiles/RelWithDebInfo/Ext_GenericParameters-complete
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/CMakeFiles/$(Configuration)/Ext_GenericParameters-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/RelWithDebInfo/Ext_GenericParameters-done
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/dev/study/xPBD/build/GenericParameters/src/Ext_GenericParameters-stamp/$(Configuration)/Ext_GenericParameters-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -702,8 +702,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\RelWithDebInfo\Ext_GenericParameters-install;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\RelWithDebInfo\Ext_GenericParameters-mkdir;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\RelWithDebInfo\Ext_GenericParameters-download;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\RelWithDebInfo\Ext_GenericParameters-update;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\RelWithDebInfo\Ext_GenericParameters-patch;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\RelWithDebInfo\Ext_GenericParameters-configure;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\RelWithDebInfo\Ext_GenericParameters-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\CMakeFiles\RelWithDebInfo\Ext_GenericParameters-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-install;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-mkdir;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-download;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-update;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-patch;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-configure;E:\dev\study\xPBD\build\GenericParameters\src\Ext_GenericParameters-stamp\$(Configuration)\Ext_GenericParameters-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\CMakeFiles\$(Configuration)\Ext_GenericParameters-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
@@ -718,7 +718,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\CMakeFiles\Debug\Ext_GenericParameters-complete;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\CMakeFiles\$(Configuration)\Ext_GenericParameters-complete;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\CMakeFiles\Ext_GenericParameters</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
@@ -730,7 +730,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\CMakeFiles\Release\Ext_GenericParameters-complete;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\CMakeFiles\$(Configuration)\Ext_GenericParameters-complete;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\CMakeFiles\Ext_GenericParameters</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
@@ -742,7 +742,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\CMakeFiles\MinSizeRel\Ext_GenericParameters-complete;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\CMakeFiles\$(Configuration)\Ext_GenericParameters-complete;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\CMakeFiles\Ext_GenericParameters</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
@@ -754,7 +754,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\CMakeFiles\RelWithDebInfo\Ext_GenericParameters-complete;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\CMakeFiles\$(Configuration)\Ext_GenericParameters-complete;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\CMakeFiles\Ext_GenericParameters</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
@@ -773,7 +773,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;E:\dev\study\xPBD\CMake\Common.cmake;E:\dev\study\xPBD\CMake\DataCopyTargets.cmake;E:\dev\study\xPBD\CMake\FindEigen3.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.28.0-rc2\CMakeCCompiler.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.28.0-rc2\CMakeCXXCompiler.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.28.0-rc2\CMakeRCCompiler.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.28.0-rc2\CMakeSystem.cmake;E:\dev\study\xPBD\build\GenericParameters\tmp\Ext_GenericParameters-mkdirs.cmake;E:\dev\study\xPBD\build\extern\Discregrid\tmp\Ext_Discregrid-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\dev\study\xPBD\CMake\Common.cmake;E:\dev\study\xPBD\CMake\DataCopyTargets.cmake;E:\dev\study\xPBD\CMake\FindEigen3.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.23.2\CMakeSystem.cmake;E:\dev\study\xPBD\build\CMakeFiles\FindOpenMP\OpenMPCheckVersion.c;E:\dev\study\xPBD\build\CMakeFiles\FindOpenMP\OpenMPCheckVersion.cpp;E:\dev\study\xPBD\build\CMakeFiles\FindOpenMP\OpenMPTryFlag.c;E:\dev\study\xPBD\build\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp;E:\dev\study\xPBD\build\GenericParameters\tmp\Ext_GenericParameters-mkdirs.cmake;E:\dev\study\xPBD\build\extern\Discregrid\tmp\Ext_Discregrid-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/dev/study/xPBD/CMakeLists.txt</Message>
@@ -786,7 +786,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;E:\dev\study\xPBD\CMake\Common.cmake;E:\dev\study\xPBD\CMake\DataCopyTargets.cmake;E:\dev\study\xPBD\CMake\FindEigen3.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.28.0-rc2\CMakeCCompiler.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.28.0-rc2\CMakeCXXCompiler.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.28.0-rc2\CMakeRCCompiler.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.28.0-rc2\CMakeSystem.cmake;E:\dev\study\xPBD\build\GenericParameters\tmp\Ext_GenericParameters-mkdirs.cmake;E:\dev\study\xPBD\build\extern\Discregrid\tmp\Ext_Discregrid-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\dev\study\xPBD\CMake\Common.cmake;E:\dev\study\xPBD\CMake\DataCopyTargets.cmake;E:\dev\study\xPBD\CMake\FindEigen3.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.23.2\CMakeSystem.cmake;E:\dev\study\xPBD\build\CMakeFiles\FindOpenMP\OpenMPCheckVersion.c;E:\dev\study\xPBD\build\CMakeFiles\FindOpenMP\OpenMPCheckVersion.cpp;E:\dev\study\xPBD\build\CMakeFiles\FindOpenMP\OpenMPTryFlag.c;E:\dev\study\xPBD\build\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp;E:\dev\study\xPBD\build\GenericParameters\tmp\Ext_GenericParameters-mkdirs.cmake;E:\dev\study\xPBD\build\extern\Discregrid\tmp\Ext_Discregrid-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/dev/study/xPBD/CMakeLists.txt</Message>
@@ -799,7 +799,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;E:\dev\study\xPBD\CMake\Common.cmake;E:\dev\study\xPBD\CMake\DataCopyTargets.cmake;E:\dev\study\xPBD\CMake\FindEigen3.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.28.0-rc2\CMakeCCompiler.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.28.0-rc2\CMakeCXXCompiler.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.28.0-rc2\CMakeRCCompiler.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.28.0-rc2\CMakeSystem.cmake;E:\dev\study\xPBD\build\GenericParameters\tmp\Ext_GenericParameters-mkdirs.cmake;E:\dev\study\xPBD\build\extern\Discregrid\tmp\Ext_Discregrid-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\dev\study\xPBD\CMake\Common.cmake;E:\dev\study\xPBD\CMake\DataCopyTargets.cmake;E:\dev\study\xPBD\CMake\FindEigen3.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.23.2\CMakeSystem.cmake;E:\dev\study\xPBD\build\CMakeFiles\FindOpenMP\OpenMPCheckVersion.c;E:\dev\study\xPBD\build\CMakeFiles\FindOpenMP\OpenMPCheckVersion.cpp;E:\dev\study\xPBD\build\CMakeFiles\FindOpenMP\OpenMPTryFlag.c;E:\dev\study\xPBD\build\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp;E:\dev\study\xPBD\build\GenericParameters\tmp\Ext_GenericParameters-mkdirs.cmake;E:\dev\study\xPBD\build\extern\Discregrid\tmp\Ext_Discregrid-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/dev/study/xPBD/CMakeLists.txt</Message>
@@ -812,7 +812,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;E:\dev\study\xPBD\CMake\Common.cmake;E:\dev\study\xPBD\CMake\DataCopyTargets.cmake;E:\dev\study\xPBD\CMake\FindEigen3.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.28.0-rc2\CMakeCCompiler.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.28.0-rc2\CMakeCXXCompiler.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.28.0-rc2\CMakeRCCompiler.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.28.0-rc2\CMakeSystem.cmake;E:\dev\study\xPBD\build\GenericParameters\tmp\Ext_GenericParameters-mkdirs.cmake;E:\dev\study\xPBD\build\extern\Discregrid\tmp\Ext_Discregrid-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\dev\study\xPBD\CMake\Common.cmake;E:\dev\study\xPBD\CMake\DataCopyTargets.cmake;E:\dev\study\xPBD\CMake\FindEigen3.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;E:\dev\study\xPBD\build\CMakeFiles\3.23.2\CMakeSystem.cmake;E:\dev\study\xPBD\build\CMakeFiles\FindOpenMP\OpenMPCheckVersion.c;E:\dev\study\xPBD\build\CMakeFiles\FindOpenMP\OpenMPCheckVersion.cpp;E:\dev\study\xPBD\build\CMakeFiles\FindOpenMP\OpenMPTryFlag.c;E:\dev\study\xPBD\build\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp;E:\dev\study\xPBD\build\GenericParameters\tmp\Ext_GenericParameters-mkdirs.cmake;E:\dev\study\xPBD\build\extern\Discregrid\tmp\Ext_Discregrid-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
