@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\dev\study\xPBD\Demos\DistanceFieldDemos\ClothCollisionDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\dev\study\xPBD\Demos\Common\LogWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\dev\study\xPBD\Demos\Common\Simulator_GUI_imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\dev\study\xPBD\Demos\Common\imguiParameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\dev\study\xPBD\Demos\Common\DemoBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\dev\study\xPBD\extern\glfw\deps\glad_gl.c">
+      <Filter>Source Files\Visualization</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\dev\study\xPBD\Demos\Visualization\MiniGL.cpp">
+      <Filter>Source Files\Visualization</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\dev\study\xPBD\Demos\Visualization\Shader.cpp">
+      <Filter>Source Files\Visualization</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\dev\study\xPBD\Demos\Common\LogWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\dev\study\xPBD\Demos\Common\Simulator_GUI_imgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\dev\study\xPBD\Demos\Common\imguiParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\dev\study\xPBD\Demos\Common\DemoBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\dev\study\xPBD\Demos\Visualization\MiniGL.h">
+      <Filter>Header Files\Visualization</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\dev\study\xPBD\Demos\Visualization\Selection.h">
+      <Filter>Header Files\Visualization</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\dev\study\xPBD\Demos\Visualization\Shader.h">
+      <Filter>Header Files\Visualization</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\dev\study\xPBD\Demos\Visualization\Visualization.h">
+      <Filter>Header Files\Visualization</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\dev\study\xPBD\Common\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\dev\study\xPBD\Demos\DistanceFieldDemos\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BB4EC074-1C08-3136-A6B7-2CFDD6A94E3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Visualization">
+      <UniqueIdentifier>{9E0D7DF3-74D6-301D-B780-AFF7D6342BF6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2FC4217E-94BC-3203-BE54-6116652C9F04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Visualization">
+      <UniqueIdentifier>{88193AD1-03B4-33DF-B114-F42307EFA3A3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\dev\study\xPBD\PositionBasedDynamics\MathFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\dev\study\xPBD\PositionBasedDynamics\PositionBasedDynamics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\dev\study\xPBD\PositionBasedDynamics\PositionBasedElasticRods.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\dev\study\xPBD\PositionBasedDynamics\PositionBasedFluids.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\dev\study\xPBD\PositionBasedDynamics\PositionBasedRigidBodyDynamics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\dev\study\xPBD\PositionBasedDynamics\SPHKernels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\dev\study\xPBD\PositionBasedDynamics\TimeIntegration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\dev\study\xPBD\PositionBasedDynamics\XPBD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\dev\study\xPBD\Common\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\dev\study\xPBD\PositionBasedDynamics\DirectPositionBasedSolverForStiffRodsInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\dev\study\xPBD\PositionBasedDynamics\MathFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\dev\study\xPBD\PositionBasedDynamics\PositionBasedDynamics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\dev\study\xPBD\PositionBasedDynamics\PositionBasedElasticRods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\dev\study\xPBD\PositionBasedDynamics\PositionBasedFluids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\dev\study\xPBD\PositionBasedDynamics\PositionBasedRigidBodyDynamics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\dev\study\xPBD\PositionBasedDynamics\PositionBasedGenericConstraints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\dev\study\xPBD\PositionBasedDynamics\SPHKernels.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\dev\study\xPBD\PositionBasedDynamics\TimeIntegration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\dev\study\xPBD\PositionBasedDynamics\XPBD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\dev\study\xPBD\PositionBasedDynamics\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BB4EC074-1C08-3136-A6B7-2CFDD6A94E3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2FC4217E-94BC-3203-BE54-6116652C9F04}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

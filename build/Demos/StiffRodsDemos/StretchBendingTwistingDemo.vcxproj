@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9C33445F-6239-3073-97E4-532C3ECD384A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>StretchBendingTwistingDemo</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">StretchBendingTwistingDemo.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">StretchBendingTwistingDemo_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">StretchBendingTwistingDemo.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">StretchBendingTwistingDemo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">StretchBendingTwistingDemo.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">StretchBendingTwistingDemo_ms</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">StretchBendingTwistingDemo.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">StretchBendingTwistingDemo_rd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\dev\study\xPBD;E:\dev\study\xPBD\build\GenericParameters\include;E:\dev\study\xPBD\build\Discregrid\include;E:\dev\study\xPBD\extern\eigen;E:\dev\study\xPBD\extern\freeglut\include;E:\dev\study\xPBD\extern\glew\include;E:\dev\study\xPBD\extern\glfw\include;E:\dev\study\xPBD\extern\glfw\src\include;E:\dev\study\xPBD\extern\glfw\src\..\deps;E:\dev\study\xPBD\extern\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\dev\study\xPBD;E:\dev\study\xPBD\build\GenericParameters\include;E:\dev\study\xPBD\build\Discregrid\include;E:\dev\study\xPBD\extern\eigen;E:\dev\study\xPBD\extern\freeglut\include;E:\dev\study\xPBD\extern\glew\include;E:\dev\study\xPBD\extern\glfw\include;E:\dev\study\xPBD\extern\glfw\src\include;E:\dev\study\xPBD\extern\glfw\src\..\deps;E:\dev\study\xPBD\extern\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\dev\study\xPBD;E:\dev\study\xPBD\build\GenericParameters\include;E:\dev\study\xPBD\build\Discregrid\include;E:\dev\study\xPBD\extern\eigen;E:\dev\study\xPBD\extern\freeglut\include;E:\dev\study\xPBD\extern\glew\include;E:\dev\study\xPBD\extern\glfw\include;E:\dev\study\xPBD\extern\glfw\src\include;E:\dev\study\xPBD\extern\glfw\src\..\deps;E:\dev\study\xPBD\extern\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;..\..\lib\Debug\imgui_d.lib;..\..\lib\Debug\glfw3_d.lib;..\..\lib\Debug\MD5_d.lib;..\..\lib\Debug\PositionBasedDynamics_d.lib;..\..\lib\Debug\Simulation_d.lib;..\..\lib\Debug\Utils_d.lib;..\..\lib\Debug\PositionBasedDynamics_d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/dev/study/xPBD/build/Demos/StiffRodsDemos/Debug/StretchBendingTwistingDemo_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/dev/study/xPBD/bin/StretchBendingTwistingDemo_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\dev\study\xPBD;E:\dev\study\xPBD\build\GenericParameters\include;E:\dev\study\xPBD\build\Discregrid\include;E:\dev\study\xPBD\extern\eigen;E:\dev\study\xPBD\extern\freeglut\include;E:\dev\study\xPBD\extern\glew\include;E:\dev\study\xPBD\extern\glfw\include;E:\dev\study\xPBD\extern\glfw\src\include;E:\dev\study\xPBD\extern\glfw\src\..\deps;E:\dev\study\xPBD\extern\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\dev\study\xPBD;E:\dev\study\xPBD\build\GenericParameters\include;E:\dev\study\xPBD\build\Discregrid\include;E:\dev\study\xPBD\extern\eigen;E:\dev\study\xPBD\extern\freeglut\include;E:\dev\study\xPBD\extern\glew\include;E:\dev\study\xPBD\extern\glfw\include;E:\dev\study\xPBD\extern\glfw\src\include;E:\dev\study\xPBD\extern\glfw\src\..\deps;E:\dev\study\xPBD\extern\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\dev\study\xPBD;E:\dev\study\xPBD\build\GenericParameters\include;E:\dev\study\xPBD\build\Discregrid\include;E:\dev\study\xPBD\extern\eigen;E:\dev\study\xPBD\extern\freeglut\include;E:\dev\study\xPBD\extern\glew\include;E:\dev\study\xPBD\extern\glfw\include;E:\dev\study\xPBD\extern\glfw\src\include;E:\dev\study\xPBD\extern\glfw\src\..\deps;E:\dev\study\xPBD\extern\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;..\..\lib\Release\imgui.lib;..\..\lib\Release\glfw3.lib;..\..\lib\Release\MD5.lib;..\..\lib\Release\PositionBasedDynamics.lib;..\..\lib\Release\Simulation.lib;..\..\lib\Release\Utils.lib;..\..\lib\Release\PositionBasedDynamics.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/dev/study/xPBD/build/Demos/StiffRodsDemos/Release/StretchBendingTwistingDemo.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/dev/study/xPBD/bin/StretchBendingTwistingDemo.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\dev\study\xPBD;E:\dev\study\xPBD\build\GenericParameters\include;E:\dev\study\xPBD\build\Discregrid\include;E:\dev\study\xPBD\extern\eigen;E:\dev\study\xPBD\extern\freeglut\include;E:\dev\study\xPBD\extern\glew\include;E:\dev\study\xPBD\extern\glfw\include;E:\dev\study\xPBD\extern\glfw\src\include;E:\dev\study\xPBD\extern\glfw\src\..\deps;E:\dev\study\xPBD\extern\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\dev\study\xPBD;E:\dev\study\xPBD\build\GenericParameters\include;E:\dev\study\xPBD\build\Discregrid\include;E:\dev\study\xPBD\extern\eigen;E:\dev\study\xPBD\extern\freeglut\include;E:\dev\study\xPBD\extern\glew\include;E:\dev\study\xPBD\extern\glfw\include;E:\dev\study\xPBD\extern\glfw\src\include;E:\dev\study\xPBD\extern\glfw\src\..\deps;E:\dev\study\xPBD\extern\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\dev\study\xPBD;E:\dev\study\xPBD\build\GenericParameters\include;E:\dev\study\xPBD\build\Discregrid\include;E:\dev\study\xPBD\extern\eigen;E:\dev\study\xPBD\extern\freeglut\include;E:\dev\study\xPBD\extern\glew\include;E:\dev\study\xPBD\extern\glfw\include;E:\dev\study\xPBD\extern\glfw\src\include;E:\dev\study\xPBD\extern\glfw\src\..\deps;E:\dev\study\xPBD\extern\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;..\..\lib\MinSizeRel\imgui_ms.lib;..\..\lib\MinSizeRel\glfw3_ms.lib;..\..\lib\MinSizeRel\MD5_ms.lib;..\..\lib\MinSizeRel\PositionBasedDynamics_ms.lib;..\..\lib\MinSizeRel\Simulation_ms.lib;..\..\lib\MinSizeRel\Utils_ms.lib;..\..\lib\MinSizeRel\PositionBasedDynamics_ms.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/dev/study/xPBD/build/Demos/StiffRodsDemos/MinSizeRel/StretchBendingTwistingDemo_ms.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/dev/study/xPBD/bin/StretchBendingTwistingDemo_ms.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\dev\study\xPBD;E:\dev\study\xPBD\build\GenericParameters\include;E:\dev\study\xPBD\build\Discregrid\include;E:\dev\study\xPBD\extern\eigen;E:\dev\study\xPBD\extern\freeglut\include;E:\dev\study\xPBD\extern\glew\include;E:\dev\study\xPBD\extern\glfw\include;E:\dev\study\xPBD\extern\glfw\src\include;E:\dev\study\xPBD\extern\glfw\src\..\deps;E:\dev\study\xPBD\extern\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\dev\study\xPBD;E:\dev\study\xPBD\build\GenericParameters\include;E:\dev\study\xPBD\build\Discregrid\include;E:\dev\study\xPBD\extern\eigen;E:\dev\study\xPBD\extern\freeglut\include;E:\dev\study\xPBD\extern\glew\include;E:\dev\study\xPBD\extern\glfw\include;E:\dev\study\xPBD\extern\glfw\src\include;E:\dev\study\xPBD\extern\glfw\src\..\deps;E:\dev\study\xPBD\extern\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\dev\study\xPBD;E:\dev\study\xPBD\build\GenericParameters\include;E:\dev\study\xPBD\build\Discregrid\include;E:\dev\study\xPBD\extern\eigen;E:\dev\study\xPBD\extern\freeglut\include;E:\dev\study\xPBD\extern\glew\include;E:\dev\study\xPBD\extern\glfw\include;E:\dev\study\xPBD\extern\glfw\src\include;E:\dev\study\xPBD\extern\glfw\src\..\deps;E:\dev\study\xPBD\extern\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;..\..\lib\RelWithDebInfo\imgui_rd.lib;..\..\lib\RelWithDebInfo\glfw3_rd.lib;..\..\lib\RelWithDebInfo\MD5_rd.lib;..\..\lib\RelWithDebInfo\PositionBasedDynamics_rd.lib;..\..\lib\RelWithDebInfo\Simulation_rd.lib;..\..\lib\RelWithDebInfo\Utils_rd.lib;..\..\lib\RelWithDebInfo\PositionBasedDynamics_rd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/dev/study/xPBD/build/Demos/StiffRodsDemos/RelWithDebInfo/StretchBendingTwistingDemo_rd.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/dev/study/xPBD/bin/StretchBendingTwistingDemo_rd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\dev\study\xPBD\Demos\StiffRodsDemos\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/dev/study/xPBD/Demos/StiffRodsDemos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/dev/study/xPBD -BE:/dev/study/xPBD/build --check-stamp-file E:/dev/study/xPBD/build/Demos/StiffRodsDemos/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\CMake\FindEigen3.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\dev\study\xPBD\build\Demos\StiffRodsDemos\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/dev/study/xPBD/Demos/StiffRodsDemos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/dev/study/xPBD -BE:/dev/study/xPBD/build --check-stamp-file E:/dev/study/xPBD/build/Demos/StiffRodsDemos/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\CMake\FindEigen3.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\dev\study\xPBD\build\Demos\StiffRodsDemos\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/dev/study/xPBD/Demos/StiffRodsDemos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/dev/study/xPBD -BE:/dev/study/xPBD/build --check-stamp-file E:/dev/study/xPBD/build/Demos/StiffRodsDemos/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\CMake\FindEigen3.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\dev\study\xPBD\build\Demos\StiffRodsDemos\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/dev/study/xPBD/Demos/StiffRodsDemos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/dev/study/xPBD -BE:/dev/study/xPBD/build --check-stamp-file E:/dev/study/xPBD/build/Demos/StiffRodsDemos/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\CMake\FindEigen3.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\dev\study\xPBD\build\Demos\StiffRodsDemos\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\dev\study\xPBD\Demos\StiffRodsDemos\StretchBendingTwistingDemo.cpp" />
+    <ClCompile Include="E:\dev\study\xPBD\Demos\Common\LogWindow.cpp" />
+    <ClInclude Include="E:\dev\study\xPBD\Demos\Common\LogWindow.h" />
+    <ClCompile Include="E:\dev\study\xPBD\Demos\Common\Simulator_GUI_imgui.cpp" />
+    <ClInclude Include="E:\dev\study\xPBD\Demos\Common\Simulator_GUI_imgui.h" />
+    <ClCompile Include="E:\dev\study\xPBD\Demos\Common\imguiParameters.cpp" />
+    <ClInclude Include="E:\dev\study\xPBD\Demos\Common\imguiParameters.h" />
+    <ClCompile Include="E:\dev\study\xPBD\Demos\Common\DemoBase.cpp" />
+    <ClInclude Include="E:\dev\study\xPBD\Demos\Common\DemoBase.h" />
+    <ClInclude Include="E:\dev\study\xPBD\Demos\Visualization\MiniGL.h" />
+    <ClInclude Include="E:\dev\study\xPBD\Demos\Visualization\Selection.h" />
+    <ClInclude Include="E:\dev\study\xPBD\Demos\Visualization\Shader.h" />
+    <ClInclude Include="E:\dev\study\xPBD\Demos\Visualization\Visualization.h" />
+    <ClCompile Include="E:\dev\study\xPBD\extern\glfw\deps\glad_gl.c" />
+    <ClCompile Include="E:\dev\study\xPBD\Demos\Visualization\MiniGL.cpp" />
+    <ClCompile Include="E:\dev\study\xPBD\Demos\Visualization\Shader.cpp" />
+    <ClInclude Include="E:\dev\study\xPBD\Common\Common.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\dev\study\xPBD\build\ZERO_CHECK.vcxproj">
+      <Project>{15ECD795-DF98-36FE-ABF6-F7375F73F085}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\dev\study\xPBD\build\CopyImguiFonts.vcxproj">
+      <Project>{8D1E5BA5-DA8C-3ED8-B758-08C2FC3003A6}</Project>
+      <Name>CopyImguiFonts</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\dev\study\xPBD\build\CopyPBDModels.vcxproj">
+      <Project>{3A78F869-8543-3BEE-996E-CBEF19F41DAF}</Project>
+      <Name>CopyPBDModels</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\dev\study\xPBD\build\CopyPBDScenes.vcxproj">
+      <Project>{CC6D2EE5-457E-30A2-B3FD-EFDDA25C5C48}</Project>
+      <Name>CopyPBDScenes</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\dev\study\xPBD\build\CopyPBDShaders.vcxproj">
+      <Project>{1D3C1BB5-CE8C-3CFF-A5BB-33D301E9E7BD}</Project>
+      <Name>CopyPBDShaders</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\dev\study\xPBD\build\Ext_GenericParameters.vcxproj">
+      <Project>{E10343FF-4577-328A-9908-AADAF9A94FC1}</Project>
+      <Name>Ext_GenericParameters</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\dev\study\xPBD\build\extern\md5\MD5.vcxproj">
+      <Project>{D886E00E-3758-3048-9486-02F10EE32AB2}</Project>
+      <Name>MD5</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\dev\study\xPBD\build\PositionBasedDynamics\PositionBasedDynamics.vcxproj">
+      <Project>{9969CC5F-CA28-3A82-ACB6-5D4D84C79F08}</Project>
+      <Name>PositionBasedDynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\dev\study\xPBD\build\Simulation\Simulation.vcxproj">
+      <Project>{9FE785CE-3634-3EBD-BA6A-5D6C55539B75}</Project>
+      <Name>Simulation</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\dev\study\xPBD\build\Utils\Utils.vcxproj">
+      <Project>{44009B38-4D39-3908-AA73-C5070B9FEA27}</Project>
+      <Name>Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\dev\study\xPBD\build\extern\glfw\src\glfw.vcxproj">
+      <Project>{925F7DA7-4CDC-3F8C-8F24-5D9662594B08}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\dev\study\xPBD\build\extern\imgui\imgui.vcxproj">
+      <Project>{4327111B-3A5D-3AFC-BA42-30C8AC002CB2}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

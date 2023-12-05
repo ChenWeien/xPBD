@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\dev\study\xPBD\build\CMakeFiles\1d4168a1911b8f51482271f01fd3e940\Ext_Discregrid-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\dev\study\xPBD\build\CMakeFiles\1d4168a1911b8f51482271f01fd3e940\Ext_Discregrid-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\dev\study\xPBD\build\CMakeFiles\1d4168a1911b8f51482271f01fd3e940\Ext_Discregrid-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\dev\study\xPBD\build\CMakeFiles\1d4168a1911b8f51482271f01fd3e940\Ext_Discregrid-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\dev\study\xPBD\build\CMakeFiles\1d4168a1911b8f51482271f01fd3e940\Ext_Discregrid-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\dev\study\xPBD\build\CMakeFiles\1d4168a1911b8f51482271f01fd3e940\Ext_Discregrid-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\dev\study\xPBD\build\CMakeFiles\1d4168a1911b8f51482271f01fd3e940\Ext_Discregrid-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\dev\study\xPBD\build\CMakeFiles\39a547add2157d1af9725fcc36836e85\Ext_Discregrid-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\dev\study\xPBD\build\CMakeFiles\62cf2f5a102cf8687e156683aafa7aa4\Ext_Discregrid.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\dev\study\xPBD\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\dev\study\xPBD\build\CMakeFiles\Ext_Discregrid" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B4B7FF54-7648-3D62-9327-BB2ADC11D3EA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
